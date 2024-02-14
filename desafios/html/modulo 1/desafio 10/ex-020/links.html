@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo elementos</title>
+    <style>
+         a{
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+            
+         }
+         a:visited{
+            color: darkred;
+          
+         }
+         a:hover{
+            text-decoration: underline;
+            color: black;
+         }
+         a:active{
+            color: yellow;
+         }
+         a::after{
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color:darkgray
+         }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        
+        <li><a href="https://github.com/JoaoPaulorodri/JoaoPaulorodri">Repositório github</a></li>
+        <li><a href="https://www.youtube.com/channel/UCYNVt6E7q3T5ed0Mn2NKamg">canal no youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do Cursoemvideo</a> </li>
+       
+    </ul>
+    
+</body>
+</html>
